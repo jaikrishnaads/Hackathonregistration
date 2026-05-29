@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -26,8 +27,8 @@
     body {
       font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
       background: radial-gradient(circle at top, rgba(95, 131, 255, 0.18), transparent 32%),
-                  radial-gradient(circle at bottom right, rgba(16, 185, 129, 0.12), transparent 28%),
-                  var(--bg);
+        radial-gradient(circle at bottom right, rgba(16, 185, 129, 0.12), transparent 28%),
+        var(--bg);
       color: var(--text);
       min-height: 100vh;
       line-height: 1.6;
@@ -95,7 +96,7 @@
     .hero-content {
       padding: 28px;
       border-radius: 28px;
-      background: rgba(255,255,255,0.03);
+      background: rgba(255, 255, 255, 0.03);
       border: 1px solid rgba(148, 163, 184, 0.15);
       backdrop-filter: blur(12px);
     }
@@ -121,7 +122,7 @@
     .info-card {
       border-radius: 22px;
       padding: 18px 20px;
-      background: rgba(255,255,255,0.03);
+      background: rgba(255, 255, 255, 0.03);
       border: 1px solid rgba(148, 163, 184, 0.12);
     }
 
@@ -149,7 +150,7 @@
       border-radius: 28px;
       padding: 24px;
       background: linear-gradient(180deg, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.8));
-      border: 1px solid rgba(255,255,255,0.08);
+      border: 1px solid rgba(255, 255, 255, 0.08);
     }
 
     .status-box h2 {
@@ -171,7 +172,7 @@
       border-radius: 18px;
       padding: 16px 18px;
       background: rgba(15, 23, 42, 0.9);
-      border: 1px solid rgba(255,255,255,0.06);
+      border: 1px solid rgba(255, 255, 255, 0.06);
     }
 
     .status-pill span {
@@ -201,7 +202,7 @@
     }
 
     .card {
-      background: rgba(255,255,255,0.04);
+      background: rgba(255, 255, 255, 0.04);
       border: 1px solid rgba(148, 163, 184, 0.12);
       border-radius: 22px;
       padding: 22px;
@@ -223,7 +224,7 @@
       gap: 22px;
       padding: 28px;
       border-radius: 32px;
-      background: rgba(255,255,255,0.03);
+      background: rgba(255, 255, 255, 0.03);
       border: 1px solid rgba(148, 163, 184, 0.12);
     }
 
@@ -295,7 +296,7 @@
       gap: 12px;
       padding: 18px 22px;
       border-radius: 20px;
-      background: rgba(255,255,255,0.04);
+      background: rgba(255, 255, 255, 0.04);
       border: 1px dashed rgba(148, 163, 184, 0.15);
     }
 
@@ -335,6 +336,23 @@
       box-shadow: 0 18px 35px rgba(95, 131, 255, 0.18);
     }
 
+    .iframe-wrapper {
+      width: 100%;
+      height: 800px;
+      border-radius: 24px;
+      overflow: hidden;
+      border: 1px solid rgba(148, 163, 184, 0.15);
+      background: rgba(15, 23, 42, 0.6);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+      margin-top: 16px;
+    }
+
+    .iframe-wrapper iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
     .register-summary {
       padding: 24px;
       border-radius: 24px;
@@ -360,7 +378,7 @@
       gap: 14px;
       padding: 16px;
       border-radius: 18px;
-      background: rgba(255,255,255,0.04);
+      background: rgba(255, 255, 255, 0.04);
       border: 1px solid rgba(148, 163, 184, 0.10);
     }
 
@@ -416,6 +434,7 @@
     }
   </style>
 </head>
+
 <body>
   <div class="page">
     <header>
@@ -436,9 +455,12 @@
 
     <section class="hero">
       <article class="hero-content">
-        <span style="display:inline-block; margin-bottom:16px; color:#34d399; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; font-size:0.8rem;">Rokini Institute Presents</span>
+        <span
+          style="display:inline-block; margin-bottom:16px; color:#34d399; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; font-size:0.8rem;">Rokini
+          Institute Presents</span>
         <h1>Rokini EdTech Hackathon 2026 — Build the Future of Learning</h1>
-        <p>Join a demo hackathon to design an educational platform inspired by Coursera and GUVI. Teams will prototype new learning experiences, AI-powered coaching, and gamified pathways using the best of digital education.</p>
+        <p>Join a demo hackathon to design an educational platform inspired by Coursera and GUVI. Teams will prototype
+          new learning experiences, AI-powered coaching, and gamified pathways using the best of digital education.</p>
 
         <div class="hero-grid">
           <div class="info-card">
@@ -482,7 +504,10 @@
 
     <section class="section" id="about">
       <h2>About the Demo</h2>
-      <p>This is a demo hackathon registration page for Rokini Institute. Participants will propose new educational solutions with a focus on adaptive learning, content delivery, mentorship, and learner motivation. Your team can choose any of the problem statements below and register to showcase a concept, prototype, or user experience design.</p>
+      <p>This is a demo hackathon registration page for Rokini Institute. Participants will propose new educational
+        solutions with a focus on adaptive learning, content delivery, mentorship, and learner motivation. Your team can
+        choose any of the problem statements below and register to showcase a concept, prototype, or user experience
+        design.</p>
     </section>
 
     <section class="section" id="problems">
@@ -490,83 +515,48 @@
       <div class="cards">
         <article class="card">
           <h3>1. Personalized Learning Path Engine</h3>
-          <p>Create a recommendation engine that suggests the next course or learning path for a student based on their goals, existing skills, and preferences.</p>
+          <p>Create a recommendation engine that suggests the next course or learning path for a student based on their
+            goals, existing skills, and preferences.</p>
         </article>
         <article class="card">
           <h3>2. Adaptive Progress Dashboard</h3>
-          <p>Design a dashboard that visualizes learner progress, highlights strengths and weaknesses, and adapts the curriculum to improve outcomes.</p>
+          <p>Design a dashboard that visualizes learner progress, highlights strengths and weaknesses, and adapts the
+            curriculum to improve outcomes.</p>
         </article>
         <article class="card">
           <h3>3. AI Mentor Chatbot</h3>
-          <p>Build a conversational mentor assistant that answers questions, provides study prompts, and guides learners through course material.</p>
+          <p>Build a conversational mentor assistant that answers questions, provides study prompts, and guides learners
+            through course material.</p>
         </article>
         <article class="card">
           <h3>4. Gamified Certification Path</h3>
-          <p>Develop a gamification model for certificate journeys, where students earn badges, milestones, and rewards as they complete learning milestones.</p>
+          <p>Develop a gamification model for certificate journeys, where students earn badges, milestones, and rewards
+            as they complete learning milestones.</p>
         </article>
         <article class="card">
           <h3>5. Microlearning Scheduler</h3>
-          <p>Invent a microlearning planner that schedules short, daily learning activities for students and helps them stay consistent.</p>
+          <p>Invent a microlearning planner that schedules short, daily learning activities for students and helps them
+            stay consistent.</p>
         </article>
       </div>
     </section>
 
     <section class="section form-panel" id="register">
       <div class="form-meta">
-        <p><strong>Register Your Team:</strong> Use the form below to sign up your team directly on this page. This version is self-contained and works when deployed to Vercel.</p>
-        <p>Fill in the team details, choose your problem statement, and submit your project idea.</p>
+        <p><strong>Register Your Team:</strong> Complete the registration using the Google Form below, or click the
+          button to open it in a new tab.</p>
+        <p>Ensure all team member details and your selected problem statement are filled out accurately.</p>
       </div>
 
-      <a href="#teamForm" class="cta-button">Click here to create your team</a>
+      <div style="text-align: center; margin: 16px 0;">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSefhvx1EG-Kh306EHt7sfPaksrHIJd1rGA0plQisJfd6XN3eQ/viewform?usp=dialog"
+          target="_blank" class="cta-button">Click to Create the Team</a>
+      </div>
 
-      <form id="teamForm" style="margin-top: 24px;">
-        <div class="field-group">
-          <label for="teamName">Team Name</label>
-          <input type="text" id="teamName" name="teamName" placeholder="Enter your team name" required />
-        </div>
-        <div class="field-group">
-          <label for="leaderName">Team Leader Name</label>
-          <input type="text" id="leaderName" name="leaderName" placeholder="Team leader full name" required />
-        </div>
-        <div class="field-group">
-          <label for="email">Email Address</label>
-          <input type="email" id="email" name="email" placeholder="team.leader@example.com" required />
-        </div>
-        <div class="field-group">
-          <label for="phone">Phone Number</label>
-          <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required />
-        </div>
-        <div class="field-group">
-          <label for="college">College / Organization</label>
-          <input type="text" id="college" name="college" placeholder="Enter college or institution" required />
-        </div>
-        <div class="field-group">
-          <label for="members">Team Members</label>
-          <input type="text" id="members" name="members" placeholder="Add up to 5 member names separated by commas" required />
-        </div>
-        <div class="field-group">
-          <label for="statement">Select Problem Statement</label>
-          <select id="statement" name="statement" required>
-            <option value="">Choose a challenge</option>
-            <option value="Personalized Learning Path Engine">Personalized Learning Path Engine</option>
-            <option value="Adaptive Progress Dashboard">Adaptive Progress Dashboard</option>
-            <option value="AI Mentor Chatbot">AI Mentor Chatbot</option>
-            <option value="Gamified Certification Path">Gamified Certification Path</option>
-            <option value="Microlearning Scheduler">Microlearning Scheduler</option>
-          </select>
-        </div>
-        <div class="field-group">
-          <label for="message">Project Idea Summary</label>
-          <textarea id="message" name="message" placeholder="Describe your concept in 2-3 sentences."></textarea>
-        </div>
-        <button type="submit">Submit Registration</button>
-      </form>
-
-      <div class="status-message" id="statusMessage"></div>
-
-      <div class="register-summary" id="summaryCard" style="display:none;">
-        <p class="summary-heading">Registration submitted successfully</p>
-        <div class="summary-list" id="summaryList"></div>
+      <div class="iframe-wrapper">
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSefhvx1EG-Kh306EHt7sfPaksrHIJd1rGA0plQisJfd6XN3eQ/viewform?embedded=true"
+          width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </div>
     </section>
 
@@ -574,71 +564,10 @@
       <p>Rokini Institute | Educate, Empower, Elevate</p>
       <p>Powered by demo registration page for a hackathon concept.</p>
     </footer>
-      </div>
+  </div>
 
-    <script>
-      const form = document.getElementById('teamForm');
-      const statusMessage = document.getElementById('statusMessage');
-      const summaryCard = document.getElementById('summaryCard');
-      const summaryList = document.getElementById('summaryList');
 
-      function showStatus(message, success = true) {
-        statusMessage.textContent = message;
-        statusMessage.style.background = success ? 'rgba(34, 197, 94, 0.12)' : 'rgba(249, 115, 22, 0.12)';
-        statusMessage.style.borderColor = success ? 'rgba(34, 197, 94, 0.2)' : 'rgba(249, 115, 22, 0.2)';
-        statusMessage.classList.add('visible');
-        setTimeout(() => statusMessage.classList.remove('visible'), 7000);
-      }
-
-      function createSummaryItem(label, value) {
-        const item = document.createElement('div');
-        item.className = 'summary-item';
-        item.innerHTML = `<span>${label}</span><strong>${value}</strong>`;
-        return item;
-      }
-
-      form.addEventListener('submit', function (event) {
-        event.preventDefault();
-
-        const data = {
-          teamName: form.teamName.value.trim(),
-          leaderName: form.leaderName.value.trim(),
-          email: form.email.value.trim(),
-          phone: form.phone.value.trim(),
-          college: form.college.value.trim(),
-          members: form.members.value.trim(),
-          statement: form.statement.value,
-          message: form.message.value.trim(),
-          submittedAt: new Date().toLocaleString()
-        };
-
-        if (!data.teamName || !data.leaderName || !data.email || !data.phone || !data.college || !data.members || !data.statement) {
-          showStatus('Please fill in all required fields before submitting.', false);
-          return;
-        }
-
-        const storage = JSON.parse(localStorage.getItem('rokiniHackathonRegistrations') || '[]');
-        storage.push(data);
-        localStorage.setItem('rokiniHackathonRegistrations', JSON.stringify(storage));
-
-        summaryList.innerHTML = '';
-        summaryList.appendChild(createSummaryItem('Team Name', data.teamName));
-        summaryList.appendChild(createSummaryItem('Team Leader', data.leaderName));
-        summaryList.appendChild(createSummaryItem('Email', data.email));
-        summaryList.appendChild(createSummaryItem('Phone', data.phone));
-        summaryList.appendChild(createSummaryItem('College', data.college));
-        summaryList.appendChild(createSummaryItem('Team Members', data.members));
-        summaryList.appendChild(createSummaryItem('Problem Statement', data.statement));
-        if (data.message) {
-          summaryList.appendChild(createSummaryItem('Idea Summary', data.message));
-        }
-        summaryList.appendChild(createSummaryItem('Submitted On', data.submittedAt));
-
-        summaryCard.style.display = 'block';
-        form.reset();
-        showStatus('Your team has been registered successfully for the Rokini Institute Hackathon!');
-      });
-    </script>
 
 </body>
+
 </html>
